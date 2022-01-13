@@ -1,0 +1,13 @@
+.skill-items-container {
+  list-style: none;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-items-container img {
+  height: 50px;
+  margin-right: 20px;
+}

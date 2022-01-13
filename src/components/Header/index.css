@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+.header-container {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.header-logo-container > img {
+  height: 40px;
+}
+
+.header-unordered-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-unordered-list-item {
+  color: white;
+  margin: 10px;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-logout-button-container {
+  margin-left: 500px;
+}
+
+.header-logout-button-container > button {
+  background-color: #6366f1;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+}
